@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aditya Degree College | Palakollu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="home">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home"><span class="logo-icon">✦</span> Aditya Degree College, Palakollu</a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#events">Events</a>
+        <a href="#about">About</a>
+        <a href="#register">Register</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">YOUR CAMPUS. YOUR MOMENTS.</p>
+        <h1>Aditya Degree College <br><span>Events & Activities</span></h1>
+        <p class="hero-text">Find college events, explore new interests, and make your campus life memorable.</p>
+        <a class="button button-light" href="#events">Explore Events <span aria-hidden="true">→</span></a>
+        <div class="hero-note"><span class="live-dot"></span> Learn, connect, and grow together</div>
+      </div>
+      <div class="hero-decoration decoration-one"></div>
+      <div class="hero-decoration decoration-two"></div>
+    </section>
+
+    <section class="section container" id="events">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow dark-eyebrow">WHAT'S HAPPENING?</p>
+          <h2>Upcoming Events</h2>
+          <p class="section-intro">Explore activities designed to bring students together.</p>
+        </div>
+        <span class="event-count">3 featured events</span>
+      </div>
+
+      <div class="event-grid">
+        <article class="event-card">
+          <div class="event-art tech-art"><span class="art-icon">⌘</span><span class="art-label">TECHNOLOGY</span></div>
+          <div class="event-body">
+            <div class="event-meta"><span>📅 12 November 2026</span><span>📍 Seminar Hall</span></div>
+            <h3>TechNova</h3>
+            <p>A student technology fest featuring coding challenges, quizzes, and project demonstrations.</p>
+            <a class="text-link" href="#register">Register interest <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="event-card">
+          <div class="event-art culture-art"><span class="art-icon">♫</span><span class="art-label">ART & CULTURE</span></div>
+          <div class="event-body">
+            <div class="event-meta"><span>📅 18 November 2026</span><span>📍 College Stage</span></div>
+            <h3>Rangotsav</h3>
+            <p>Celebrate creativity through music, dance, art, and performances by students.</p>
+            <a class="text-link" href="#register">Register interest <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="event-card">
+          <div class="event-art sports-art"><span class="art-icon">★</span><span class="art-label">SPORTS</span></div>
+          <div class="event-body">
+            <div class="event-meta"><span>📅 25 November 2026</span><span>📍 Sports Ground</span></div>
+            <h3>Champions Meet</h3>
+            <p>Take part in friendly competitions, teamwork activities, and sports challenges.</p>
+            <a class="text-link" href="#register">Register interest <span>→</span></a>
+          </div>
+        </article>
+      </div>
+      <p class="demo-note">Demo content: event names, dates, and venues are sample details created for this mini project.</p>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">ABOUT ADITYA DEGREE COLLEGE, PALAKOLLU</p>
+          <h2>One place for<br>campus activities.</h2>
+        </div>
+        <div>
+          <p>Aditya Degree College, Palakollu is a front-end website concept that presents college events in a clear and student-friendly format. It helps students quickly view event information and find registration details.</p>
+          <div class="benefits">
+            <div><span>01</span><strong>Easy to explore</strong></div>
+            <div><span>02</span><strong>Event details in one place</strong></div>
+            <div><span>03</span><strong>Responsive layout</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container register-section" id="register">
+      <div class="register-copy">
+        <p class="eyebrow dark-eyebrow">GET INVOLVED</p>
+        <h2>Interested in an event?</h2>
+        <p>Use this sample form design to show how students could express interest in a college event.</p>
+        <p class="form-warning">Student project demo: this form does not send or save information.</p>
+      </div>
+      <form class="registration-form" action="#" method="get">
+        <label for="student-name">Student name</label>
+        <input id="student-name" name="student-name" type="text" placeholder="Enter your name" required>
+
+        <label for="student-email">Email address</label>
+        <input id="student-email" name="student-email" type="email" placeholder="you@example.com" required>
+
+        <label for="event-choice">Choose an event</label>
+        <select id="event-choice" name="event-choice" required>
+          <option value="">Select an event</option>
+          <option>TechNova</option>
+          <option>Rangotsav</option>
+          <option>Champions Meet</option>
+        </select>
+
+        <button class="button button-primary" type="submit">Register for Event</button>
+        <p class="form-footnote">No data is stored. A real registration system would need a backend.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="container footer-content">
+      <div>
+        <a class="logo footer-logo" href="#home"><span class="logo-icon">✦</span> Aditya Degree College, Palakollu</a>
+        <p>A student mini project for presenting college events.</p>
+      </div>
+      <div class="footer-contact">
+        <strong>Contact</strong>
+        <p>College event coordinator</p>
+        <p>Aditya Degree College, Palakollu, Andhra Pradesh.</p>
+        <p>For event details, contact your college coordinator.</p>
+      </div>
+    </div>
+    <div class="container copyright">© 2026 Aditya Degree College, Palakollu · Educational demo project</div>
+  </footer>
+</body>
+</html>
